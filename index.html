@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: hsl(217, 54%, 11%);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="preview-card-wrapper">
+        <div>
+          <img
+            src="./images/image-equilibrium.jpg"
+            height="270"
+            width="270"
+            style="border-radius: 10px"
+          />
+        </div>
+        <div>
+          <h1
+            style="
+              font-size: 18px;
+              color: hsl(0, 0%, 100%);
+              font-family: Outfit;
+              font-weight: 600;
+              margin-top: 15px;
+            "
+          >
+            Equilibrium #3429
+          </h1>
+
+          <p
+            style="
+              font-size: 16px;
+              color: hsl(215, 51%, 70%);
+              font-family: Outfit;
+              font-weight: 400;
+              line-height: 25px;
+              margin-top: 15px;
+            "
+          >
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+        </div>
+
+        <div style="margin-top: 12px; font-family: Outfit; font-size: 15px">
+          <div style="display: flex; justify-content: space-between">
+            <span style="color: hsl(178, 100%, 50%)">
+              <img src="./images/icon-ethereum.svg" />
+              <span style="position: relative; top: -3px"> 0.041ETH </span>
+            </span>
+
+            <span style="color: hsl(215, 51%, 70%)">
+              <img src="./images/icon-clock.svg" />
+              <span style="position: relative; top: -3px">3 days left</span>
+            </span>
+          </div>
+
+          <div style="margin-top: 15px">
+            <span
+              style="
+                display: block;
+                width: 100%;
+                border-top: 1px solid;
+                color: hsl(215, 32%, 27%);
+              "
+            >
+            </span>
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              gap: 15px;
+            "
+          >
+            <div>
+              <img
+                src="./images/image-avatar.png"
+                height="30px"
+                width="30px"
+                style="
+                  margin-top: 20px;
+                  padding-left: 20px;
+                  border: 1px solid white;
+                  border-radius: 175px;
+                  padding: 0px;
+                "
+              />
+            </div>
+            <div style="margin-top: 15px">
+              <span
+                style="
+                  color: hsl(215, 51%, 70%);
+                  font: weight 400px;
+                  align-content: center;
+                "
+              >
+                Creation of
+              </span>
+              <span style="color: hsl(0, 0%, 100%)"> Jules Wyvern</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
